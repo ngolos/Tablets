@@ -11,7 +11,7 @@ import re
 from streamlit_lottie import st_lottie
 
 #from streamlit_lottie import st_lottie_spinner
-st.set_page_config(page_title="Tablets Report", page_icon="⚕️​", layout="wide")
+st.set_page_config(page_title="Tablets Report", page_icon="✳️​", layout="wide")
 
 
 #def load_lottieurl(url: str):
