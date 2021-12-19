@@ -225,7 +225,7 @@ chart2=alt.Chart(source).mark_line(point = True).encode(
 st.write("---")
 st.header('Category by Functionality')
 
-col1, col2, col3, col4 = st.columns([3,1,4,1])
+col1, col2, col3, col4 = st.columns([3,1,3,3])
 with col1:
     #col1.metric(label="Dogs", value="%.2f" % total_sales_dogs)
     st.subheader(f"{function_choice}:Top 10 Ingredients in {month_choice}")
