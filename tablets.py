@@ -175,8 +175,9 @@ with col05:
     st.altair_chart(brand_chart)
 
 #function_type=['Beauty', 'Body', 'Brain', 'Digest', 'Energy', 'Fitness', 'Immune', 'Joints', 'Stress_Sleep','Weight_Mngm' ]
-st.dataframe(top_brands)
-
+with st.expander("See Top Brands Spreadsheet"):
+     st.dataframe(top_brands)
+        
 filtered_df = ingredients.loc[ingredients['function']==function_choice].nlargest(15, month_choice)
 filtered_df1 = ingredients.loc[ingredients['function']==function_choice]
 
